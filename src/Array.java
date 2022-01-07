@@ -18,25 +18,25 @@ public class Array {
     String[] stringArray2 = new String[3];
 
     String[] nama = {
-      "David", "Geraldo", "Pakpahan"
+        "David", "Geraldo", "Pakpahan"
     };
 
     nama[0] = null;
 
     int[] arrayInt = new int[] {
-      1,2,3,4,5,6,7,8,9,0
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 0
     };
 
     long[] arrayLong = {
-      10L, 20L, 30L
+        10L, 20L, 30L
     };
 
     arrayLong[0] = 0;
     System.out.println(arrayLong.length);
 
     String[][] member = {
-      {"David", "Geraldo"},
-      {"Analaizer", "Eva"}
+        { "David", "Geraldo" },
+        { "Analaizer", "Eva" }
     };
 
     System.out.println(member[0][1]);
